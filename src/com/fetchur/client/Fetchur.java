@@ -108,7 +108,7 @@ public class Fetchur implements EntryPoint {
     private void addFrame(Panel panel, Page page) {
         final Frame frame = getFrame(page.getUrl());
         panel.add(frame);
-        panel.add(new Label("Relevance of <a href='" + page.getUrl() + "'>" + page.getUrl() + "</a>: " + page.getRelevance()));
+        panel.add(new HTML("Relevance of <a href='" + page.getUrl() + "'>" + page.getUrl() + "</a>: " + page.getRelevance()));
     }
 
     private ArrayList<Keyword> getKeywords(String text) {
