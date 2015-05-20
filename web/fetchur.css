@@ -1,0 +1,59 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+
+.search-box {
+}
+
+.search-button {}
+
+.start-box {}
+
+.frame-panel {
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-panel {
+    width: 300px;
+    max-width: 100%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-container {
+    width: 100%;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.search-panel > * {
+    width: 100%;
+}
+
+.web-frame {
+    margin-top:20px;
+    width: 100%;
+    height: 95%;
+}
+
+.relevance {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
